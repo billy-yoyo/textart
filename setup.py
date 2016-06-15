@@ -18,7 +18,7 @@ setup(
     description="A package for drawing art-text with similar functionality to pygame",
     long_description=long_description,
 
-    url='github',
+    url='https://github.com/billy-yoyo/textart/',
 
     author="Billyoyo",
     author_email="billyoyo@hotmail.co.uk",
