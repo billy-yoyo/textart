@@ -109,12 +109,14 @@ area is None, [x, y], [x, y, size] or [x, y, width, height], None means all
 inplace determines if the replace will return a new copy of the art with the replacements or replace them in the art, defaults to False, return a new copy  
 bychar determines if the replacements will be done per character,  
 if bychar=False:  
-	> replaces all instances of 'old' with 'new' within the area
+> replaces all instances of 'old' with 'new' within the area
+
 if bychar=True:  
-	> does it on a per-char basis, e.g. art.replace('xyz', '123', bychar=True) is shorthand for  
-	> art.replace('x', '1') art.replace('y', '2') art.replace('z', '3')  
-	> if new is a single character, it replaces all of old with new, e.g. art.replace('xyz', '1', bychar=True) is shorthand for  
-	> art.replace('x', '1') art.replace('y', '1') art.replace('z', '1')  
+> does it on a per-char basis, e.g. art.replace('xyz', '123', bychar=True) is shorthand for  
+> art.replace('x', '1') art.replace('y', '2') art.replace('z', '3')  
+> if new is a single character, it replaces all of old with new, e.g. art.replace('xyz', '1', bychar=True) is shorthand for  
+> art.replace('x', '1') art.replace('y', '1') art.replace('z', '1')  
+
 cut determines if the replacement will cut out the area and return it or return the whole thing, if true overrides inplace defaults to False, return the whole art  
 
 
@@ -127,11 +129,13 @@ area is None, [x, y], [x, y, size] or [x, y, width, height], None means all
 inplace determines if the replace will return a new copy of the art with the replacements or replace them in the art, defaults to False, return a new copy  
 bychar determines if the swaps will be done per character,  
 if bychar=False:  
-	> swaps all instances of 'old' with 'new' within the area
+> swaps all instances of 'old' with 'new' within the area  
+
 if bychar=True:  
-	> does it on a per-char basis, e.g. art.swap('xyz', '123', bychar=True) is shorthand for  
-	> art.swap('x', '1') art.swap('y', '2') art.swap('z', '3')
- cut determines if the replacement will cut out the area and return it or return the whole thing, if true overrides inplace defaults to False, return the whole art  
+> does it on a per-char basis, e.g. art.swap('xyz', '123', bychar=True) is shorthand for  
+> art.swap('x', '1') art.swap('y', '2') art.swap('z', '3')
+
+cut determines if the replacement will cut out the area and return it or return the whole thing, if true overrides inplace defaults to False, return the whole art  
 
 
 ```
