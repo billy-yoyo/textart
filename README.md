@@ -174,4 +174,4 @@ Runs some artscript code
 width, height is the width and height of the main art object  
 lines is a list of strings, each string being a line of code  
   
-see the source at https://github.com/billy-yoyo/textart/ for details on how to use artscript
+see the source at https://github.com/billy-yoyo/textart/blob/master/textart.py#L537 for details on how to use artscript
