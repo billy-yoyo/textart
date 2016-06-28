@@ -7,7 +7,7 @@ The Art class, represents a grid of characters
 ## Installation:
 
 ```
-pip intall textart
+pip install textart
 ```
 
 ## Functions:
